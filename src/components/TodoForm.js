@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { InputButton } from './InputButton'
+import InputButton from './InputButton'
 
 export const TodoForm = ({addTodo}) => {
 
@@ -16,7 +16,7 @@ export const TodoForm = ({addTodo}) => {
 
 
     return (
-        <form className="ToDoForm" onSubmit={handleSubmit}>
+        <form className="ToDoForm" data-testid="todo-form" onSubmit={handleSubmit}>
             <InputButton value={value} setValue={setValue}/>
         </form>
     )

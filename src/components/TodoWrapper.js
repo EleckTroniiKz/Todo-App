@@ -2,11 +2,11 @@ import React, {useState} from 'react'
 import { TodoForm } from './TodoForm'
 import { v4 as uuidv4 } from 'uuid'
 import { Todo } from './Todo'
-import { EditTodoForm } from './EditTodoForm'
-import { Counter } from './Counter'
+import EditTodoForm from './EditTodoForm'
+import Counter from './Counter'
 uuidv4()
 
-export const TodoWrapper = () => {
+const TodoWrapper = () => {
 
     const [todos, setTodos] = useState([])
 
@@ -35,7 +35,7 @@ export const TodoWrapper = () => {
     }
 
     return (
-        <div className="TodoWrapper">
+        <div className="TodoWrapper" data-testid="todo-wrapper">
             <h1> To-Do App Demo</h1>
             <TodoForm addTodo={addTodo}/>
             <Counter todos={todos} />
@@ -49,3 +49,5 @@ export const TodoWrapper = () => {
         </div>
     )
 }
+
+export default TodoWrapper;
