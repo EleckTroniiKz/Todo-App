@@ -52,7 +52,7 @@ h1 {
   margin: 0 auto;
 }
 
-.todo-input {
+.todo-input, .todo-edit-input {
   outline: none;
   background: none;
   border: 1px solid #415A77;
@@ -66,11 +66,11 @@ h1 {
   color: #fff;
 }
 
-.todo-input::placeholder {
+.todo-input::placeholder, .todo-edit-input::placeholder{
   color: #ffffff4d;
 }
 
-.todo-btn {
+.todo-btn, .todo-edit-btn, .submit-btn {
   background: #0D1B2A;
   color: #fff;
   border-top: 1px solid #415A77;

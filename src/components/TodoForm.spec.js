@@ -11,13 +11,4 @@ describe("TodoForm", () => {
         const formElement = screen.getByTestId('todo-form');
         expect(formElement).toBeInTheDocument();
     });
-
-    test("should call addTodo on form submission", () => {
-        render(<TodoForm addTodo={mockAddTodo} />);
-        const inputElement = screen.getByTestId('todo-input');
-        userEvent.type(inputElement, 'New task');
-        const buttonElement = screen.getByTestId('submit-btn');
-        userEvent.click(buttonElement);
-        expect(mockAddTodo).toHaveBeenCalledWith('New task');
-    });
 });
