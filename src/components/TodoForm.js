@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import InputButton from './InputButton'
 
-export const TodoForm = ({addTodo}) => {
+const TodoForm = ({addTodo}) => {
 
     const [value, setValue] = useState('')
 
@@ -21,3 +21,5 @@ export const TodoForm = ({addTodo}) => {
         </form>
     )
 }
+
+export default TodoForm;
