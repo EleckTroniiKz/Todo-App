@@ -1,5 +1,5 @@
 import { mount } from 'cypress/react';
-import { TodoForm } from './TodoForm';
+import TodoForm from './TodoForm';
 
 describe('TodoForm', () => {
   let addTodo;

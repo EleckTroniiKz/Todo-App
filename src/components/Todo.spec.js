@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import userEvent from '@testing-library/user-event';
-import { Todo } from './Todo';
+import Todo from './Todo';
 
 describe("Todo", () => {
     const mockToggleComplete = jest.fn();

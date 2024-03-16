@@ -1,4 +1,4 @@
-import { Todo } from './Todo';
+import Todo from './Todo';
 import { mount } from 'cypress/react';
 
 describe('Todo', () => {
