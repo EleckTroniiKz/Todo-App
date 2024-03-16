@@ -4,6 +4,7 @@ import { v4 as uuidv4 } from 'uuid'
 import Todo from './Todo'
 import EditTodoForm from './EditTodoForm'
 import Counter from './Counter'
+import './TodoWrapper.css'
 uuidv4()
 
 const TodoWrapper = () => {

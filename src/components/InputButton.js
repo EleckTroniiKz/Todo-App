@@ -1,3 +1,4 @@
+import './InputButton.css';
 
 const InputButton = ({value, setValue}) => {
 

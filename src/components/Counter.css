@@ -1,0 +1,17 @@
+span{
+  background: #1b263b;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Counter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+  }
+  
+  .Counter p{
+    color: #fff;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+  }

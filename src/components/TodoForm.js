@@ -16,7 +16,7 @@ const TodoForm = ({addTodo}) => {
 
 
     return (
-        <form className="ToDoForm" data-testid="todo-form" onSubmit={handleSubmit}>
+        <form className="TodoForm" data-testid="todo-form" onSubmit={handleSubmit}>
             <InputButton value={value} setValue={setValue}/>
         </form>
     )

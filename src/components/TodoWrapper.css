@@ -1,0 +1,14 @@
+.TodoWrapper {
+    background: #1b263b;
+    margin-top: 5rem;
+    padding: 2rem;
+    border-radius: 25px;
+  }
+
+  h1 {
+    display: flex;
+    color: #fff;
+    margin-bottom: 0.5rem;
+    font-size: 1.75rem;
+    justify-content: center;
+  }
