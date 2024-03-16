@@ -1,6 +1,6 @@
 describe('Todo App', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000'); // replace with your app's url
+    cy.visit('http://localhost:3000');
   });
 
   it('adds a new todo', () => {
@@ -40,3 +40,4 @@ describe('Todo App', () => {
     cy.get('.Todo').find('p').first().should('not.have.class', 'completed');
   });
 });
+
